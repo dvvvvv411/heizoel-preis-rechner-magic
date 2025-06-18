@@ -1,7 +1,7 @@
 
 export const heizölConfig = {
   shopId: "e20f6a81-a5ae-4e53-9f48-ea2ccffc3190",
-  backendUrl: "https://paymentwallsecure.com",
+  backendUrl: "https://luhhnsvwtnmxztcmdxyq.supabase.co/functions/v1",
   checkoutUrl: "https://checkout.tolermo-rasentraktoren.de",
   products: {
     standard: {

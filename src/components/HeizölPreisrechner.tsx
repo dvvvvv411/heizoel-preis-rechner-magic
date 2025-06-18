@@ -45,7 +45,7 @@ const HeizölPreisrechner = () => {
 
       console.log('Sending order data:', orderData);
 
-      const response = await fetch(`${heizölConfig.backendUrl}/api/create-order-token`, {
+      const response = await fetch(`${heizölConfig.backendUrl}/create-order-token`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
